@@ -22,7 +22,7 @@ app.use((req, res, next)=>{
 app.use(cors())
 
 app.get("/", (req, res)=>{
-    res.json({data: process.env.PORT})
+    res.json({data: "A primeira Rota"})
 
 })
 
