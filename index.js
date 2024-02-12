@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -74,5 +74,5 @@ app.post("/upload", upload.single("filename"), async (req, res) => {
 
 
 
-const port = process.env.PORT
-app.listen(port, console.log("Servidor funcionando!", port))
+// const port = process.env.PORT
+app.listen("8000", console.log("Servidor funcionando!"))
