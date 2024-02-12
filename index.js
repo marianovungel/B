@@ -22,7 +22,7 @@ app.use((req, res, next)=>{
 app.use(cors())
 
 app.get("/", (req, res)=>{
-    res.json({data: "Primeira rota para a aplicação de upload de imagem no firebase"})
+    res.json({data: "firebase"})
 
 })
 
